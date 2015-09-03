@@ -14,6 +14,7 @@
 		AA02346E1B97D38E00AEA737 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA02346D1B97D38E00AEA737 /* Images.xcassets */; };
 		AA0234711B97D38E00AEA737 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA02346F1B97D38E00AEA737 /* LaunchScreen.xib */; };
 		AA02347D1B97D38E00AEA737 /* MafiaMiniGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA02347C1B97D38E00AEA737 /* MafiaMiniGamesTests.m */; };
+		AA0234881B97DA0C00AEA737 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0234871B97DA0C00AEA737 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AA0234761B97D38E00AEA737 /* MafiaMiniGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaMiniGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA02347B1B97D38E00AEA737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA02347C1B97D38E00AEA737 /* MafiaMiniGamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MafiaMiniGamesTests.m; sourceTree = "<group>"; };
+		AA0234861B97DA0C00AEA737 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AA0234871B97DA0C00AEA737 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				AA0234651B97D38E00AEA737 /* AppDelegate.m */,
 				AA0234671B97D38E00AEA737 /* ViewController.h */,
 				AA0234681B97D38E00AEA737 /* ViewController.m */,
+				AA0234861B97DA0C00AEA737 /* Player.h */,
+				AA0234871B97DA0C00AEA737 /* Player.m */,
 				AA02346A1B97D38E00AEA737 /* Main.storyboard */,
 				AA02346D1B97D38E00AEA737 /* Images.xcassets */,
 				AA02346F1B97D38E00AEA737 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0234881B97DA0C00AEA737 /* Player.m in Sources */,
 				AA0234691B97D38E00AEA737 /* ViewController.m in Sources */,
 				AA0234661B97D38E00AEA737 /* AppDelegate.m in Sources */,
 				AA0234631B97D38E00AEA737 /* main.m in Sources */,
